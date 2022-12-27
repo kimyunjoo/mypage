@@ -1,87 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-		<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="킹융두 - 프로필 링크">
-    <meta property="og:description" content="어서와 코딩은 처음이지?">
-    <meta property="og:image" content="미미.jpg">
-    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
-    <title>르탄이 - 프로필 링크</title>
+    <title>2023년 신년 계획</title>
     <style>
-        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
         * {
-            font-family: "Pretendard",serif;
+            font-family: 'Hahmlet', serif;
         }
-        body {
-            background-color: #bc1b1b;
-        }
-        .profile {
-            width: 100px;
-            height: 100px;
-
-            border-radius: 100%;
-            border: 2px solid white;
-            background-image: url('미미.jpg');
-            background-position:center;
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
             background-size: cover;
+            background-position: center;
+            
+            margin: auto;
         }
-        .main{
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+        }
+
+        .title {
+            background-color: tomato;
+            border-radius: 10px;
+            padding: 4px 14px;
             color: white;
-            font-size: 20px;
-            margin-top: 30px ;
-            margin-bottom: 10px;
         }
-        .sub{
-            color: white;
-            font-size: 14px;
-            margin-top: 0px;
-            margin-bottom: 30px;
 
-        }
-        .wrap{
-        
-            width: 300px;
-            margin: 30px auto 0px auto;  
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .wrap>a{
-            width: 300px;
-            height: 50px;
-            background-color: white;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            font-size: 14px;
-            font-weight: bold;
-            color:  #bc1b1b;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            text-decoration: none;
-
-            box-shadow: 3px 3px 5px 0px black;
-        }
-        .wrap>a:hover{
-            background-color: #f2f2f2;
+        .msg {
+            margin: -5px 0 15px;
         }
     </style>
+    <link rel="stylesheet" type="text/css"href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 </head>
-<body>
-    <div class="wrap">
-        <div class="profile"></div>
-        <h1 class="main">킹융두</h1>
-        <p class="sub">맛따라멋따라..흘러가는대로~</p>
-        <a target="_blank" href="https://www.instagram.com/yunj8/">인스타그램</a>
-        <a target="_blank" href="https://blog.naver.com/cutemoon10">블로그</a>
+
+<body class="bg-t3 center">
+    <h1 class="title-t2">2023년 신년계획</h1>
+    <p class="msg">윤주는 할 수 있어!</p>
+    <div class="flex-row wrap">
+        <div class="bucket img1-t2 center">테니스배우기🎾</div>
+        <div class="bucket img2-t2 center">멋찐 신입사원되기😎</div>
+        <div class="bucket img2-t2 center">다이어리 안 밀리기</div>
+        <div class="bucket img1-t2 center done">디지털 아카이빙 섭렵</div>
+        <div class="bucket img1-t2 center">해외여행 가기✈</div>
+        <div class="bucket img2-t2 center">5000만원 저축💰</div>
     </div>
-    
 </body>
+
 </html>
